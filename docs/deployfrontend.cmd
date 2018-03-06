@@ -1,5 +1,5 @@
-robocopy src doc /e
+robocopy src docs /e
 robocopy build\contracts docs
 git add .
-git commit -m "adding frondend files to github pages"
+git commit -m "Adding frontend files to Github pages"
 git push
