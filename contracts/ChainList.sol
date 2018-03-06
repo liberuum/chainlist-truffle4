@@ -34,7 +34,7 @@ contract ChainList is Ownable {
 
   
   //deactivate the contract
-  function kill() public onlyOwner {
+  function kill() public  {
     selfdestruct(owner);
   }
 
